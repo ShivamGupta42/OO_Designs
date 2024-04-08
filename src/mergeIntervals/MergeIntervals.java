@@ -3,7 +3,7 @@ package mergeIntervals;
 
 import java.util.*;
 
-class BasicMerge {
+class MergeIntervals {
 
     public static void main(String[] args) {
         int[][] res = mergeIntervals(new int[][]{new int[]{1,2}, new int[]{2,3}});
@@ -33,7 +33,7 @@ class BasicMerge {
 
     }
 
-    private static void printInterval(int[][] interval){
+    public static void printInterval(int[][] interval){
         for(int[] arr: interval){
             System.out.println(" %s : %s ".formatted(arr[0],arr[1]));
         }
